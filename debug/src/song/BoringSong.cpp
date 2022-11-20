@@ -1,3 +1,5 @@
 #include "BoringSong.h"
 
-BoringSong::BoringSong(const std::string &name, const std::string &lyrics) : Song(name, lyrics) {}
+BoringSong::BoringSong(const std::string &name, const std::string &lyrics) : Song(name, lyrics) {
+    Song(name, lyrics);
+}

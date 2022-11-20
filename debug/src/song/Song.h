@@ -6,7 +6,7 @@
 
 class Song {
 public:
-    virtual std::string sing() const = 0;
+    virtual std::string sing() const;
 
     Song(const std::string &name, const std::string &lyrics);
 
