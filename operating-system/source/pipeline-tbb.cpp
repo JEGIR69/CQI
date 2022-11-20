@@ -17,13 +17,13 @@ auto etape1= tbb::make_filter< png, void>(tbb::filter::serial_in_order,
 auto etape2= tbb::make_filter< image_dir_t, void>(tbb::filter::serial_in_order,
 		[](image_dir_t* image_dir) -> void
 		{
-			std::cout << val << std::endl;
+			filter_scale_up(image_t* image, size_t factor);
 		});
 
 auto etape3= tbb::make_filter< image_dir_t, void>(tbb::filter::serial_in_order,
 		[](image_dir_t* image_dir) -> void
 		{
-			std::cout << val << std::endl;
+			filter_to_hsv(image_t* image);
 		});
 
 auto etape4= tbb::make_filter< image_dir_t, void>(tbb::filter::serial_in_order,
