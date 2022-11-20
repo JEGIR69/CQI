@@ -16,4 +16,4 @@ f) agile - incrémentale
 
 g) agile - transformation
 
-h) discipliné - spirale
+h) agile - incrémentale
