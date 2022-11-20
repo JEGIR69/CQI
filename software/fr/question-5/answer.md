@@ -2,18 +2,18 @@
 
 ## Réponse 5 - Choix de cycle de vie (2 points)
 
-a) 
+a) discipliné - spirale
 
-b) 
+b) agile - incrémentale
 
-c) 
+c) agile - transformation
 
-d) 
+d) discipliné - cascade
 
-e)
+e) discipliné - spirale
 
-f) 
+f) agile - incrémentale
 
-g) 
+g) agile - transformation
 
-h) 
+h) discipliné - spirale
